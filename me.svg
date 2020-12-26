@@ -1,0 +1,82 @@
+<svg fill="none" viewBox="0 0 854 400" width="854" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				.container {
+					font-family: monospace, sans-serif;
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					justify-content: center;
+					width: 100%;
+					height: 100%;
+					color: black;
+					text-align: center;
+					padding: 40px;
+					box-sizing: border-box;
+				}
+				#image {
+					width: 208px;
+					height: 208px;
+					padding: 4px;
+					background: conic-gradient(
+						#FF4646 0%,
+						#FFA02D 20%,
+						#FFDC00 40%,
+						#9AC948 60%,
+						#00AAE6 80%,
+						#FF4646 100%
+					);
+					border-radius: 1000px;
+				}
+				#image img {
+					width: 200px;
+					padding: 4px;
+					background: #FFF;
+					border-radius: 1000px;
+				}
+				h1 {
+					font-size: 30px;
+					letter-spacing: 5px;
+					margin: 30px 0 10px;
+					position: relative;
+				}
+				h1:after {
+					content: '';
+					position: absolute;
+					bottom: -2px;
+					left: 0;
+					right: 0;
+					height: 4px;
+					width: 100%;
+					border-radius: 10px;
+					background: linear-gradient(45deg,
+						#FF4646 0%,
+						#FFA02D 20%,
+						#FFDC00 40%,
+						#9AC948 60%,
+						#00AAE6 80%,
+						#FF4646 100%
+					);
+					background-size: 150%;
+					animation: gradient 3s linear infinite;
+				}
+				@keyframes gradient {
+					0% {
+						background-position: 0%;
+					}
+					100% {
+						background-position: 300%;
+					}
+				}
+			</style>
+			<div class="container">
+				<div id="image">
+					<img src="https://github.com/GRA0007/GRA0007/blob/master/me.png?raw=true" />
+				</div>
+				<h1>Ben Grant</h1>
+				<p>Welcome to my profile ✨</p>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
