@@ -2,7 +2,7 @@
   <img src="dp.svg" width="216px">
 </div>
 
-<h3 align="center">Ben Grant</h3>
+<h3 align="center">Benji Grant</h3>
 
 <div align="center">
   <a href="https://bengrant.dev">Portfolio and blog</a>
